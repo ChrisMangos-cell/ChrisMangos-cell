@@ -33,7 +33,7 @@ Data Analyst & Analytics Engineer focused on building resilient data pipelines, 
   - **Microservice Serving & Test Guardrails:** Built containerized FastAPI/Uvicorn endpoints (`/predict`, `/predict/batch`) with Pydantic v2 validation enforcing dynamic BMI computation and cross-field vitals checks, fully backed by an automated Pytest test suite asserting HTTP 422 rejection of incoherent data.
 
 - **[E-Commerce Revenue & Retention Engine](https://github.com/ChrisMangos-cell/data-portfolio)**  
-  Multi-year cohort retention analysis (<0.7% repeat purchase decay), RFM customer segmentation identifying **~R$ 4.4M** in dormant GMV, and an interactive Streamlit BI application for executive scenario planning.
+  Multi-year cohort retention analysis (`< 0.7%` repeat purchase decay), RFM customer segmentation identifying **~R$ 4.4M** in dormant GMV, and an interactive Streamlit BI application for executive scenario planning.
 
 - **[Global Weather Pipeline & Anomaly Engine](https://github.com/ChrisMangos-cell/data-portfolio)**  
   Resilient API ingestion layer with exponential backoff, stateful watermarking, idempotent DuckDB storage, Prefect DAG orchestration, and automated daily CI/CD cron jobs.
