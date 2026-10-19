@@ -20,7 +20,7 @@ Data Analyst & Analytics Engineer focused on building resilient data pipelines, 
   End-to-end econometric measurement and capital allocation engine designed to bypass post-iOS 14.5 ad-attribution signal loss.
   - **Data Engineering:** Engineered a 728-day continuous DuckDB analytical star schema (`dim_calendar`, `dim_channels`, `fact_spend`, `fact_revenue`) compiled into compressed Parquet marts.
   - **Applied Econometrics:** Implemented vectorized Geometric Adstock memory carryover and Hill saturation curves with analytical first-order derivatives ($\text{mROAS}$).
-  - **Model Performance:** Solved a 33-parameter regularized MAP optimization via L-BFGS-B achieving **$R^2 = 90.53\%$**, **$\text{MAPE} = 3.57\%$**, and **$\text{RMSE} = \$1,914.87$**.
+  - **Model Performance:** Solved a 33-parameter regularized MAP optimization via L-BFGS-B achieving **R² = 90.53%**, **MAPE = 3.57%**, and **RMSE = $1,914.87**.
   - **Capital Optimization:** Deployed a non-linear SLSQP solver that identified **$173,077/year** in misallocated ad spend (siphoning capital from saturated Google P-Max into under-attributed channels), unlocking **+4.96% incremental revenue** with **$0 added ad spend**.
   - **Production Delivery:** Built an interactive multi-tab Streamlit decision cockpit and validated pipeline integrity with 20 deterministic Pytest unit/integration tests.
 
